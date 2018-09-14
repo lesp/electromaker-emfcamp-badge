@@ -1,6 +1,3 @@
 import sim800
 
-tel = ("Number to text")
-msg = ("Message to send")
-
-sim800.sendsms(tel,msg)
+sim800.sendsms("Number to text","Message to send")
